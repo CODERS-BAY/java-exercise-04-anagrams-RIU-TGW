@@ -6,6 +6,11 @@ public class AnagramFinder {
 
     public static void main(String[] args) {
 
+        //a: 43
+        //b: t
+        //c: System.out.println(bert.indexOf("C"));
+
+
         if (areAnagrams("Listen", "Silent")){
             System.out.println("The two strings are anagrams");
         } else{
@@ -28,11 +33,6 @@ public class AnagramFinder {
 
             Arrays.sort(array1);
             Arrays.sort(array2);
-
-            //for (int i=0;i<string1.length();i++){
-                //System.out.println(array1[i]);
-                //System.out.println(array2[i]);
-            //}
 
             return Arrays.equals(array1, array2);
 
