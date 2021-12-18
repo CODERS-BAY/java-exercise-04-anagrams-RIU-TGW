@@ -4,7 +4,7 @@ public class AnagramFinder {
 
     public static void main(String[] args) {
         /*
-            Write some tests here
+           Test
          */
     }
 
